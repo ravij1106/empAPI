@@ -7,5 +7,4 @@ import com.empApi.entity.Employee;
 
 public interface EmployeeService extends IFinder<Employee>, IService<Employee>{
 	Page<Employee> search(Pageable pageable, String searchText);
-
 }

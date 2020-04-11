@@ -56,7 +56,6 @@ public abstract class BasicService<T, R extends JpaRepository<T, Long> & JpaSpec
 		return repository.findAll( specification, pageable); 
 	}
 
-
 	@Override
 	public List<T> findAll(Specification<T> specification) {
 		return repository.findAll(specification); 

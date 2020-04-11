@@ -41,5 +41,5 @@ public interface IFinder<T> {
 	 * Get All elements
 	 * @return List<T>
 	 */
-	List<T> findAll();
+	List<T> findAll(); 
 }

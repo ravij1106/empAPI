@@ -12,5 +12,5 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>, JpaSp
 	Page<Employee> search(Pageable pageable, String queriableText);
 
 	@Query("select emp From Employee emp where emp.id = ?1")
-	Employee retrieveUserById( Long id);
+	Employee retrieveUserById(Long id);
 }
