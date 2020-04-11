@@ -13,4 +13,5 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>, JpaSp
 
 	@Query("select emp From Employee emp where emp.id = ?1")
 	Employee retrieveUserById(Long id);
+	
 }
