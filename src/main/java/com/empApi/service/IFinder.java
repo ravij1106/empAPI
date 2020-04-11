@@ -42,4 +42,5 @@ public interface IFinder<T> {
 	 * @return List<T>
 	 */
 	List<T> findAll();
+	
 }

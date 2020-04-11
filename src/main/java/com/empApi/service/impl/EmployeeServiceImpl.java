@@ -17,11 +17,4 @@ public class EmployeeServiceImpl extends BasicService<Employee, EmployeeReposito
 		String queriableText = new StringBuilder("%").append(searchText).append("%").toString();
 		return repository.search(pageable, queriableText);
 	}
-
-	@Override
-	public Employee updateUser(Employee emp) {
-		
-		return null;
-	}
-
 }
